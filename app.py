@@ -10,7 +10,7 @@ st.set_page_config(
     layout="wide"
 )
 
-DATA_PATH = "data/SkyCity Auckland Restaurants & Bars.csv"
+DATA_PATH = DATA_PATH = "SkyCity Auckland Restaurants & Bars.csv"
 df = pd.read_csv(DATA_PATH)
 
 channels = {
